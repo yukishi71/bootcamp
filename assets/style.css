@@ -1,0 +1,136 @@
+/* * {
+    border: solid thin black;
+    background-color: aquamarine;
+} */
+
+body {
+    background-color:azure;
+    margin: 0;
+}
+
+h2.green {
+    color: green;
+    font-weight: lighter;
+}
+
+h2 {
+    color: blue;
+}
+
+#first-paragraph {
+    font-size: 10;
+}
+
+#second-paragraph {
+    color: rgb(217, 41, 236);
+    background-color: rgba(149, 172, 247, 0.5);
+    opacity: 0.5;
+    color: #0096ff55;
+}
+
+#typography {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30%;
+    font-weight: 500;
+    font-style: oblique;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-align: left;
+    text-shadow: 1px 2px 2px #0096ff;;
+    text-indent: 20%;
+    letter-spacing: 2;
+    word-spacing: 5;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol {
+    list-style-position: inside;
+    list-style-type: lower-alpha;
+
+    list-style: lower-alpha inside;
+}
+
+ul {
+    list-style-type: square;
+}
+
+img#my-cat {
+    width: 200;
+    height: 400;
+    object-fit: cover;
+}
+
+#banner {
+    border: solid thin #000;
+    width: 800;
+    height: 200;
+    background-image: url('banner.jpg');
+    background-size: cover;
+}
+
+#banner-2{
+    border: solid thin #0096ff;
+    height: 500;
+    background-image: url('cat.png');
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    background-position: center center;
+    background-attachment: fixed;
+}           
+
+table.contacts {
+    empty-cells: hide;
+    border-collapse: separate;
+    border-spacing: 10px 15px;
+    background-color: #f96b6b;
+}
+
+table.contacts td,
+table.contacts th {
+    border: solid thin white;
+}
+
+table.contacts th {
+    background-color: #000;
+    color: #fff;
+}
+
+div#box-model {
+    border: solid thin black;
+    margin: 10px 20px 30px 40px;
+    padding: 10px 20px 30px 40px;
+    box-shadow: 5px 5px 7px 5px black;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    background-color: #0096ff;
+}
+
+div#box-model-2 {
+    border: solid thin black;
+    /* margin: 0 auto; */
+    border-radius: 4px;
+    width: 300px;
+    height: 50px;
+    overflow: scroll;
+    box-shadow: 10px 15px 10px 5px red;
+    position: fixed;
+    top: 20%;
+    left: 30%;
+    background-color: white;
+    z-index: 2;
+}
+
+div#float-left {
+    border: solid thin black;
+    /* float: left; */
+    display: inline;
+}
+
+span#inline {
+    border: solid thin black;
+    display: block;
+}

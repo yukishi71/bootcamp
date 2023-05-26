@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <title>
+            HTML Forms
+        </title>
+    </head>
+    <body>
+        <form action="" method="post">
+            <label for="first-name">First Name</label>
+            <input type="text" name="first-name" id="first-name" required placeholder="First Name">
+
+            <br>
+
+            <label for="last-name">Last Name</label>
+            <input type="text" name="last-name" id="last-name" required>
+
+            <br>
+
+            <label for="Password">Password</label>
+            <input type="password" name="Password" id="password" required>
+
+            <br>
+
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" required min="18" max="60">
+
+            <br>
+
+            <label for="birthday">Birthday</label>
+            <input type="date" name="birthday" id="birthday">
+
+            <br>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+
+            <br>
+
+            <label for="feedback">Feedback</label>
+            <textarea name="feedback" id="feedback" cols="60" row="6"></textarea>
+
+            <br>
+
+            <p>What is your favorite food?</p>
+            <input type="radio" name="food" id="ramen" value="ramen">
+            <label for="ramen">Ramen</label>
+
+            <input type="radio" name="food" id="steak" value="steak">
+            <label for="steak">Staak</label>
+
+            <p>Dog or Cat person?</p>
+            <input type="radio" name="pet" id="cat" value="cat">
+            <label for="cat">Cat</label>
+
+            <input type="radio" name="pet" id="dog" value="dog">
+            <label for="dog">Dog</label>
+
+            <br>
+
+            <p>Select your preferred payment methods:</p>
+            <input type="checkbox" name="payment" id="credit-card" value="credit-card">
+            <label for="credit-card">Credit Card</label>
+
+            <input type="checkbox" name="payment" id="cash" value="cash">
+            <label for="cash">Cash</label>
+
+            <input type="checkbox" name="payment" id="e-wallet" value="e-wallet">
+            <label for="e-wallet">E-wallet</label>
+
+            <br>
+
+            <p>What is your device?</p>
+            <select name="device" id="device">
+                <option value="macbook">Macbook</option>
+                <option value="iphone">iPhone</option>
+                <option value="ipad" selected>iPad</option>
+            </select>
+
+            <br>
+
+            <p>Select your car:</p>
+            <select name="car" id="car" multiple>
+                <option value="toyota">Toyota</option>
+                <option value="nissan" selected>Nissanx</option>
+                <option value="honda">Honda</option>
+            </select>
+
+            <br>
+
+            <label for="profile-picture">
+                Please upload your picture:
+            </label>
+            <input type="file" name="profile-picture" id="prfile-picture">
+
+            <br>
+
+            <input type="submit" name="submit" id="submit" value="Create Account">
+
+
+            <button>
+                <h3>Create Account</h3>
+            </button>
+
+        </form>
+    </body>
+</html>
